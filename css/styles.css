@@ -31,7 +31,7 @@ body.modal-open {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        outline: 2px solid tomato;
+        /* outline: 2px solid tomato; */
     }
 
 @media screen and (min-width: 768px) and (max-width: 1200px){
