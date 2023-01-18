@@ -20,40 +20,152 @@
     <!--шапка сайта-->
     <header class="shadow-header">
       <div class="primary-nav container">
-        <nav class="nav">
-          <a href="./index.html" class="logo"
+        <a href="./index.html" class="logo"
             >Web<span class="logo-head">Studio</span></a
-          >
-          <ul class="site-nav list nav">
-            <li class="item">
-              <a href="./index.html" class="nav-link">Studio</a>
-            </li>
-            <li class="item">
-              <a href="./portfolio.html" class="nav-link nav-line-portfolio"
-                >Portfolio</a
+          >   
+          <nav class="nav">
+            <ul class="site-nav list nav">
+              <li class="item">
+                <a href="./index.html" class="nav-link">Studio</a>
+              </li>
+              <li class="item">
+                <a href="./portfolio.html" class="nav-link nav-line-active">Portfolio</a>
+              </li>
+              <li class="item">
+                <a href="./index.html" class="nav-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="list contact-nav">
+            <li class="list contact">
+              <a href="mailto:info@devstudio.com" class="contact"
+                >info@devstudio.com</a
               >
             </li>
-            <li class="item">
-              <a href="./index.html" class="nav-link">Contacts</a>
+            <li class="list contact">
+              <a href="tel:+110001111111" class="contact">+11 (000) 111-11-11</a>
             </li>
-          </ul>
-        </nav>
-        <ul class="list contact-nav">
-          <li class="list contact">
-            <a href="mailto:info@devstudio.com" class="contact"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="list contact">
-            <a href="tel:+110001111111" class="contact">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
+          </ul> 
+             
+        
+          <!-- <button type="button" class="menu-button is-open" data-menu-button>
+            <svg  width="30" height="18"
+             aria-label="mobile-menu"
+            aria-expanded="false"
+            aria-controls="menu-container">
+              <use class="icon-open" href="./images/icons.svg#icon-mobile-menu"></use>
+              <use id="icon-close-mode" class="icon-close"href="./images/icons.svg#icon-Vector"></use>
+            </svg>
+          </button> -->
+        
+<!-- <div class="menu-container is-open" id="menu-container" data-menu>
+<ul class="menu-section list">
+  <li class="">
+    <a href="./index.html" class="">Studio</a>
+  </li>
+  <li class="">
+    <a href="./portfolio.html" class="">Portfolio</a>
+  </li>
+  <li class="">
+    <a href="./index.html" class="">Contacts</a>
+  </li>
+  <li class="">
+    <a href="mailto:info@devstudio.com" class="contact"
+      >info@devstudio.com</a
+    >
+  </li>
+  <li class="">
+    <a href="tel:+110001111111" class="contact">+11 (000) 111-11-11</a>
+  </li>
+</ul>
+</div> -->
+
+
+          <!-- mobil-header -->
+           <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+        <svg
+        width="29.54px" height="18.62px"
+        aria-label="mobile-menu"
+       aria-expanded="false"
+       role="button">
+         <use href="./images/icons.svg#icon-mobile-menu"></use>
+       </svg>
+        </button>
       </div>
+      
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <div class="menu-section">
+      <button class="clouse menu-toggle js-close-menu">
+        <svg  width="8" height="8"
+             aria-label="mobile-menu"
+            aria-expanded="false"
+            role="button">
+              <use href="./images/icons.svg#icon-Vector"></use>
+            </svg>
+      </button>
+      
+      <ul class="mobile-menu">
+        <li class="list">
+          <a href="./index.html" class="mobile-link ">Studio</a>
+        </li>
+        <li class="list">
+          <a href="./portfolio.html" class="mobile-link mobile-activ">Portfolio</a>
+        </li>
+        <li class="list">
+          <a href="./index.html" class="mobile-link">Contacts</a>
+        </li>
+      </ul>
+        <ul class="mobil-contacts">
+          <li class="phone">
+            <a href="tel:+110001111111" class="mobile-link mobile-activ">+11 (000) 111-11-11</a>
+          </li>
+        <li class="mail">
+          <a href="mailto:info@devstudio.com" class="mobile-link"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="list mobil-social">
+        <li class="items">
+          <a href="" class="link" aria-label="instagram">
+            <svg class="soc-icon" width="40" height="40">
+              <use href="./images/symbol-defs.svg#icon-inst"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="items">
+          <a href="" class="link" aria-label="twitter">
+            <svg class="soc-icon" width="40" height="40">
+              <use href="./images/symbol-defs.svg#icon-twit"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="items">
+          <a href="" class="link" aria-label="facebook">
+            <svg class="soc-icon" width="40" height="40">
+              <use href="./images/symbol-defs.svg#icon-face"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="items">
+          <a href="" class="link" aria-label="in">
+            <svg class="soc-icon" width="40" height="40">
+              <use href="./images/symbol-defs.svg#icon-in"></use></svg
+          ></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+      
     </header>
     <!-- "Main" сайта -->
     <main>
       <!-- Секция кнопок -->
-      <section class="section">
+      <section class="section portfolio-section">
         <div class="container">
           <ul class="list button-list section-header">
             <li class="item">
@@ -80,6 +192,7 @@
               <a href="" class="decoration-list">
                 <div class="container-card-image">
                   <img
+                  srcset="./images/img-one.jpg 1x, ./images/img-one@2x.jpg 2x"
                     src="./images/img-one.jpg"
                     alt="Project Card"
                     width="360"
@@ -102,7 +215,8 @@
               <a href="" class="decoration-list"
                 ><div class="container-card-image">
                   <div class="card-image">
-                    <img
+                    <img 
+                    srcset="./images/img-two.jpg 1x, ./images/img-two@2x.jpg 2x"
                       src="./images/img-two.jpg"
                       alt="Project Card"
                       width="360"
@@ -125,6 +239,7 @@
                 <div class="container-card-image">
                   <div class="card-image">
                     <img
+                    srcset="./images/img-tree.jpg 1x, ./images/img-tree@2x.jpg 2x"
                       src="./images/img-tree.jpg"
                       alt="Project Card"
                       width="360"
@@ -147,6 +262,7 @@
                 ><div class="container-card-image">
                   <div class="card-image">
                     <img
+                    srcset="./images/img-four.jpg 1x, ./images/img-four@2x.jpg 2x"
                       src="./images/img-four.jpg"
                       alt="Project Card"
                       width="360"
@@ -169,6 +285,7 @@
                 <div class="container-card-image">
                   <div class="card-image">
                     <img
+                    srcset="./images/img-five.jpg 1x, ./images/img-five@2x.jpg 2x"
                       src="./images/img-five.jpg"
                       alt="Project Card"
                       width="360"
@@ -191,6 +308,7 @@
                 <div class="container-card-image">
                   <div class="card-image">
                     <img
+                    srcset="./images/img-six.jpg 1x, ./images/img-six@2x.jpg 2x"
                       src="./images/img-six.jpg"
                       alt="Project Card"
                       width="360"
@@ -213,6 +331,7 @@
                 ><div class="container-card-image">
                   <div class="card-image">
                     <img
+                    srcset="./images/img-seven.jpg 1x, ./images/img-seven@2x.jpg 2x"
                       src="./images/img-seven.jpg"
                       alt="Project Card"
                       width="360"
@@ -235,6 +354,7 @@
                 <div class="container-card-image">
                   <div class="card-image">
                     <img
+                    srcset="./images/img-eight.jpg 1x, ./images/img-eight@2x.jpg 2x"
                       src="./images/img-eight.jpg"
                       alt="Project Card"
                       width="360"
@@ -257,6 +377,7 @@
                 ><div class="container-card-image">
                   <div class="card-image">
                     <img
+                    srcset="./images/img-nine.jpg 1x, ./images/img-nine@2x.jpg 2x"
                       src="./images/img-nine.jpg"
                       alt="Project Card"
                       width="360"
@@ -345,5 +466,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

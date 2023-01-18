@@ -15,44 +15,158 @@
     />
 
     <link rel="stylesheet" href="./css/styles.css" />
+  
   </head>
   <body>
     <!--шапка сайта-->
 
     <header class="shadow-header">
       <div class="primary-nav container">
-        <nav class="nav">
-          <a href="./index.html" class="logo"
+        <a href="./index.html" class="logo"
             >Web<span class="logo-head">Studio</span></a
-          >
-          <ul class="site-nav list nav">
-            <li class="item">
-              <a href="./index.html" class="nav-link nav-line-studio">Studio</a>
+          >   
+          <nav class="nav">
+            <ul class="site-nav list nav">
+              <li class="item">
+                <a href="./index.html" class="nav-link nav-line-active">Studio</a>
+              </li>
+              <li class="item">
+                <a href="./portfolio.html" class="nav-link">Portfolio</a>
+              </li>
+              <li class="item">
+                <a href="./index.html" class="nav-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="list contact-nav">
+            <li class="list contact">
+              <a href="mailto:info@devstudio.com" class="contact"
+                >info@devstudio.com</a
+              >
             </li>
-            <li class="item">
-              <a href="./portfolio.html" class="nav-link">Portfolio</a>
+            <li class="list contact">
+              <a href="tel:+110001111111" class="contact">+11 (000) 111-11-11</a>
             </li>
-            <li class="item">
-              <a href="./index.html" class="nav-link">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="list contact-nav">
-          <li class="list contact">
-            <a href="mailto:info@devstudio.com" class="contact"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="list contact">
-            <a href="tel:+110001111111" class="contact">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
+          </ul> 
+             
+        
+          <!-- <button type="button" class="menu-button is-open" data-menu-button>
+            <svg  width="30" height="18"
+             aria-label="mobile-menu"
+            aria-expanded="false"
+            aria-controls="menu-container">
+              <use class="icon-open" href="./images/icons.svg#icon-mobile-menu"></use>
+              <use id="icon-close-mode" class="icon-close"href="./images/icons.svg#icon-Vector"></use>
+            </svg>
+          </button> -->
+        
+<!-- <div class="menu-container is-open" id="menu-container" data-menu>
+<ul class="menu-section list">
+  <li class="">
+    <a href="./index.html" class="">Studio</a>
+  </li>
+  <li class="">
+    <a href="./portfolio.html" class="">Portfolio</a>
+  </li>
+  <li class="">
+    <a href="./index.html" class="">Contacts</a>
+  </li>
+  <li class="">
+    <a href="mailto:info@devstudio.com" class="contact"
+      >info@devstudio.com</a
+    >
+  </li>
+  <li class="">
+    <a href="tel:+110001111111" class="contact">+11 (000) 111-11-11</a>
+  </li>
+</ul>
+</div> -->
+           <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+        <svg
+        width="29.54px" height="18.62px"
+        aria-label="mobile-menu"
+       aria-expanded="false"
+       role="button">
+         <use href="./images/icons.svg#icon-mobile-menu"></use>
+       </svg>
+        </button>
       </div>
+      
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <div class="menu-section">
+      <button class="clouse menu-toggle js-close-menu">
+        <svg  width="8" height="8"
+             aria-label="mobile-menu"
+            aria-expanded="false"
+            role="button">
+              <use href="./images/icons.svg#icon-Vector"></use>
+            </svg>
+      </button>
+      
+      <ul class="mobile-menu">
+        <li class="list">
+          <a href="./index.html" class="mobile-link mobile-activ">Studio</a>
+        </li>
+        <li class="list">
+          <a href="./portfolio.html" class="mobile-link">Portfolio</a>
+        </li>
+        <li class="list">
+          <a href="./index.html" class="mobile-link">Contacts</a>
+        </li>
+      </ul>
+      <div>
+        <ul class="mobil-contacts">
+          <li class="phone">
+            <a href="tel:+110001111111" class="mobile-link mobile-activ">+11 (000) 111-11-11</a>
+          </li>
+        <li class="mail">
+          <a href="mailto:info@devstudio.com" class="mobile-link"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="list mobil-social">
+        <li class="items">
+          <a href="" class="link" aria-label="instagram">
+            <svg class="soc-icon" width="40" height="40">
+              <use href="./images/symbol-defs.svg#icon-inst"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="items">
+          <a href="" class="link" aria-label="twitter">
+            <svg class="soc-icon" width="40" height="40">
+              <use href="./images/symbol-defs.svg#icon-twit"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="items">
+          <a href="" class="link" aria-label="facebook">
+            <svg class="soc-icon" width="40" height="40">
+              <use href="./images/symbol-defs.svg#icon-face"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="items">
+          <a href="" class="link" aria-label="in">
+            <svg class="soc-icon" width="40" height="40">
+              <use href="./images/symbol-defs.svg#icon-in"></use></svg
+          ></a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    </div>
+      
     </header>
     <!-- "Main" сайта -->
     <main>
       <!-- Секция 1 герой  -->
-      <section class="section-hero hero-image">
+      <section class="section-hero">
         <h1 class="hero">
           Effective Solutions <br />
           for Your Business
@@ -72,7 +186,7 @@
                 </svg>
               </div>
               <h2 class="section-text">Strategy</h2>
-              <p>
+              <p class="text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
@@ -84,7 +198,7 @@
                 </svg>
               </div>
               <h2 class="section-text">Punctuality</h2>
-              <p>
+              <p class="text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
@@ -96,7 +210,7 @@
                 </svg>
               </div>
               <h2 class="section-text">Diligence</h2>
-              <p>
+              <p class="text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
@@ -117,18 +231,29 @@
         </div>
       </section>
       <!-- Секция 3 -->
-      <section class="section">
+      <section class="section three">
         <div class="container">
           <h2 class="section-text section-three">What are we doing</h2>
           <ul class="section-flex list">
             <li class="list-card">
-              <img src="./images/photo1.jpg" alt="Rectangle 71" width="360" />
+              <img srcset="./images/photo1.jpg 1x, ./images/photo1@2x.jpg 2x"
+               src="./images/photo1.jpg" 
+               alt="Rectangle 71"
+                width="360" />
             </li>
             <li class="list-card">
-              <img src="./images/photo2.jpg" alt="Rectangle 71" width="360" />
+              <img 
+              srcset="./images/photo2.jpg 1x, ./images/photo2@2x.jpg 2x" 
+              src="./images/photo2.jpg" 
+              alt="Rectangle 71" 
+              width="360" />
             </li>
             <li class="list-card">
-              <img src="./images/photo3.jpg" alt="Rectangle 71" width="360" />
+              <img 
+              srcset="./images/photo3.jpg 1x, ./images/photo3@2x.jpg 2x"
+              src="./images/photo3.jpg"
+               alt="Rectangle 71"
+                width="360" />
             </li>
           </ul>
         </div>
@@ -137,9 +262,11 @@
       <section class="section work-list">
         <div class="container item">
           <h2 class="section-text section-title">Our Team</h2>
-          <ul class="section-flex no-padding-left no-margin-top-bottom">
+          <ul class="section-flex-card no-padding-left no-margin-top-bottom">
             <li class="list-li">
-              <img src="./images/img1.jpg" alt="Team Card" width="264" />
+              <img
+              srcset="./images/img1.jpg 1x, ./images/img1@2x.jpg 2x"
+              src="./images/img1.jpg" alt="Team Card" width="264" />
               <div class="item">
                 <h3 class="section-text">Mark Guerrero</h3>
                 <p>Product Designer</p>
@@ -175,7 +302,9 @@
               </ul>
             </li>
             <li class="list-li">
-              <img src="./images/img2.jpg" alt="Team Card" width="264" />
+              <img
+              srcset="./images/img2.jpg 1x, ./images/img2@2x.jpg 2x"
+               src="./images/img2.jpg" alt="Team Card" width="264" />
               <div class="item">
                 <h3 class="section-text">Tom Ford</h3>
                 <p>Frontend Developer</p>
@@ -211,7 +340,9 @@
               </ul>
             </li>
             <li class="list-li">
-              <img src="./images/img3.jpg" alt="Team Card" width="264" />
+              <img 
+              srcset="./images/img3.jpg 1x, ./images/img3@2x.jpg 2x"
+              src="./images/img3.jpg" alt="Team Card" width="264" />
               <div class="item">
                 <h3 class="section-text">Camila Garcia</h3>
                 <p>Marketing</p>
@@ -247,7 +378,9 @@
               </ul>
             </li>
             <li class="list-li">
-              <img src="./images/img4.jpg" alt="Team Card" width="264" />
+              <img 
+              srcset="./images/img4.jpg 1x, ./images/img4@2x.jpg 2x"
+              src="./images/img4.jpg" alt="Team Card" width="264" />
               <div class="item">
                 <h3 class="section-text">Daniel Wilson</h3>
                 <p>UI Designer</p>
@@ -289,7 +422,7 @@
       <section class="section">
         <div class="container">
           <h2 class="section-text section-title">Customers</h2>
-          <ul class="social-botton no-margin-padding">
+          <ul class="social-botton-company no-margin-padding">
             <li class="list customers">
               <a href="" class="link" aria-label="client-one">
                 <svg class="icon" width="168" height="88">
@@ -349,7 +482,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
-        <div>
+        <div class="margin-bottom">
           <h2 class="footer-text">Social media</h2>
           <ul class="icon-footer">
             <li class="list">
@@ -476,7 +609,7 @@
         </div>
       </div>
     </div>
-
-    <script src="./modal.js"></script>
+<script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js "></script>
   </body>
 </html>
