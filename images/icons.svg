@@ -18,8 +18,11 @@
 <symbol id="icon-Vector" viewBox="0 0 32 32">
 <path d="M32 3.223l-3.223-3.223-12.777 12.777-12.777-12.777-3.223 3.223 12.777 12.777-12.777 12.777 3.223 3.223 12.777-12.777 12.777 12.777 3.223-3.223-12.777-12.777 12.777-12.777z"></path>
 </symbol>
-<symbol id="icon-mobile-menu" viewBox="0 0 32 32">
+<!-- <symbol id="icon-mobile-menu" viewBox="0 0 32 32">
 <path d="M6.4 11.734v-2.134h19.2v2.134h-19.2zM6.4 17.066h19.2v-2.133h-19.2v2.133zM6.4 22.4h19.2v-2.134h-19.2v2.134z"></path>
+</symbol> -->
+<symbol id="icon-mobile-menu" viewBox="0 0 32 22">
+<path d="M1.34766 20.0431H30.8861M1.34766 10.7354H30.8861M1.34766 1.42773H30.8861" stroke="#2E2F42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </symbol>
 </defs>
 </svg>
